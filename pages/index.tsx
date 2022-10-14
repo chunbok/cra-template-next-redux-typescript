@@ -50,6 +50,15 @@ const Home: NextPage = () => {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
+          <a
+            href="/counter"
+            className={styles.card}
+          >
+            <h2>Redux Example &rarr;</h2>
+            <p>
+              Simple Redux example. To count
+            </p>
+          </a>
         </div>
       </main>
 
