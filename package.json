@@ -1,6 +1,6 @@
 {
     "name": "cra-template-next-redux-typescript",
-    "version": "0.1.2",
+    "version": "0.1.4",
     "private": false,
     "main": "template.json",
     "keywords": [
