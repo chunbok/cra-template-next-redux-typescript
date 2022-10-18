@@ -1,26 +1,12 @@
 {
   "name": "cra-template-next-redux-typescript",
-  "version": "0.2.0",
-  "private": false,
-  "main": "template.json",
-  "keywords": [
-    "react",
-    "create-react-app",
-    "cra-template",
-    "typescript",
-    "eslint",
-    "prettier",
-    "react-router",
-    "react-router-dom"
-  ],
-  "files": [
-    "template",
-    "template.json"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/chunbok/cra-template-next-redux-typescript",
-    "directory": "/"
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.6",
@@ -43,6 +29,5 @@
     "eslint-plugin-react": "^7.31.10",
     "prettier": "^2.7.1",
     "typescript": "4.8.4"
-  },
-  "license": "MIT"
+  }
 }
