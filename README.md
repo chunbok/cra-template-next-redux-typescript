@@ -1,8 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-react-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) & [Redux](https://redux.js.org/) project bootstrapped with [`create-react-app`](https://create-react-app.dev/) base on typescript.
 
 ## Getting Started
 
-First, run the development server:
+First, Create react project with create-react-app with template
+
+```bash
+npx create-react-app @my-app-name@ --template next-redux-typescript
+```
+
+Second, Run the development server:
 
 ```bash
 npm run dev
